@@ -1,0 +1,13 @@
+{
+  "id": "audio-test",
+  "name": "Audio de prueba",
+  "version": "0.1.0",
+  "apiVersion": 8,
+  "entry": "plugin.js",
+  "description": "Plugin de prueba para la música y los podcasts de Kino: álbumes, un sencillo y un audiolibro de dominio público del Internet Archive.",
+  "author": "kinotvapp",
+  "hosts": ["archive.org", "*.archive.org"],
+  "capabilities": ["home", "search", "episodes", "resolve"],
+  "discoverable": false,
+  "color": "#C08A3E"
+}
